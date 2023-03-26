@@ -1,0 +1,56 @@
+/*
+color: #802bb1;
+background-color: rgb(128 43 177 / 34%);
+ */
+
+
+ body{
+ background-color: #080808; 
+ height: 100vh;
+ text-align: center;
+ margin: 0;
+ padding: 15px;
+ }
+
+ .parent h1,.parent h3{
+    color: white;
+    font-family: 'Delicious Handrawn', cursive;
+ }
+ .parent .same{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+ .parent .same .first{
+    padding: 15px 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(128 43 177 / 34%);
+    color: white;
+    border: 1px solid #802bb1;
+    max-width: 100%;
+    text-align: left;
+
+ }
+ .parent .same input{
+    caret-color: white;
+
+    transition: 0.2s;
+ }
+
+ .parent .same button{
+    padding: 7px 10px;
+    font-size: 18px;
+    cursor: pointer;
+ }
+.parent .remove{
+   color: white;
+}
+.dev {
+   color: white;
+   margin-top: 50px;
+}
+.dev a{
+   color: white;
+}
